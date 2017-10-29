@@ -1,0 +1,100 @@
+@import url(https://fonts.googleapis.com/css?family=Exo:100,200,400);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300);
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+
+    color: #fff;
+    font-family: Arial;
+    font-size: 12px;
+}
+
+.form-bg {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url(../img/Pataisyta-5570-tiny.jpg);
+    background-size: cover;
+    padding-top: 30vh;
+}
+
+
+.header, .headerMessage {
+    margin-top: 10px;
+}
+
+.header div, .headerMessage div {
+    color: #fff;
+    font-family: 'Exo', sans-serif;
+    font-size: 35px;
+    font-weight: 200;
+    text-align: right;
+}
+.headerMessage div {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.header div span, .headerMessage div span {
+    color: #ffb3b3;
+}
+
+.login input,
+.login textarea {
+    max-width: 250px;
+    width: 100%;
+    background: transparent;
+    border: 1px solid rgba(255,255,255,0.6);
+    border-radius: 2px;
+    color: #fff;
+    font-family: 'Exo', sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+    padding: 4px;
+    margin-top: 10px;
+}
+.login input {
+    height: 35px;
+}
+.login textarea {
+    resize: none;
+}
+
+.login input[type=submit]{
+    max-width: 250px;
+    width: 100%;
+    height: 35px;
+    background: #fff;
+    border: 1px solid #fff;
+    cursor: pointer;
+    border-radius: 2px;
+    color: #a18d6c;
+    font-family: 'Exo', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 6px;
+    margin-top: 10px;
+}
+
+.login input[type=submit]:hover,
+.login input[type=submit]:active,
+.login input[type=submit]:focus {
+    outline: none;
+    opacity: 0.8;
+}
+
+.login input[type=text]:focus,
+.login textarea:focus {
+    outline: none;
+    border: 1px solid rgba(255,255,255,0.9);
+}
+
+::-webkit-input-placeholder {
+    color: rgba(255,255,255,0.6);
+}
+
+::-moz-input-placeholder {
+    color: rgba(255,255,255,0.6);
+}
